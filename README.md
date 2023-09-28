@@ -1,7 +1,18 @@
 # mod-test
-mod code test
+Sean Bryan code test for mod.
+instructions below cover running the project locally.
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+Next Steps
+- error handling for post fetching
+- pagination
+- .env setup
+- display post comments/author info
+- totally get rid of home page for post list rather than re-routing
+- breadcrumbs in header
+- house icon for top left home button, arrow for back to posts.
+- consolidate css and maybe just use sass/vanilla css, first time trying tailwind.
+- fancy loading spinner
 
 ## Getting Started
 
@@ -18,8 +29,6 @@ bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
