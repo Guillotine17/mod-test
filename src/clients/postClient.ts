@@ -14,6 +14,6 @@ export async function fetchPost(id: string): Promise<Post> {
         const res = await fetch(`${BASE_URL}/posts/${id}`, { cache: 'no-store' }) 
         return await res.json()
     } catch (error) {
-        throw new Error(error)
+        throw new Error('Unable to fetch post')
     }
 }
